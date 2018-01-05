@@ -1,0 +1,154 @@
+[
+    {
+        "id": "7a6717c4-e1f9-453b-bff0-8a61b9a0f4b1", 
+        "isEnum": null, 
+        "name": "section", 
+        "entries": [
+            {
+                "synonyms": [
+                    "crepe", 
+                    "crepes"
+                ], 
+                "value": "Crepes"
+            }, 
+            {
+                "synonyms": [
+                    "breakfast", 
+                    "desert", 
+                    "fruit"
+                ], 
+                "value": "Breakfast/Dessert/Fruit"
+            }, 
+            {
+                "synonyms": [
+                    "salad bar", 
+                    "salad"
+                ], 
+                "value": "Salad Bar"
+            }, 
+            {
+                "synonyms": [
+                    "flexitarian", 
+                    "flex"
+                ], 
+                "value": "Flexitarian"
+            }, 
+            {
+                "synonyms": [
+                    "expo"
+                ], 
+                "value": "Expo"
+            }, 
+            {
+                "synonyms": [
+                    "plant based"
+                ], 
+                "value": "Plant Based"
+            }, 
+            {
+                "synonyms": [
+                    "deli", 
+                    "sandwich"
+                ], 
+                "value": "Deli Bar"
+            }, 
+            {
+                "synonyms": [
+                    "Mezze bar", 
+                    "mezze"
+                ], 
+                "value": "Plant Based - Mezze Bar"
+            }, 
+            {
+                "synonyms": [
+                    "fresh from the farm", 
+                    "fresh"
+                ], 
+                "value": "Fresh from the Farm"
+            }, 
+            {
+                "synonyms": [
+                    "hot line"
+                ], 
+                "value": "Hot Line"
+            }, 
+            {
+                "synonyms": [
+                    "americana"
+                ], 
+                "value": "Americana"
+            }, 
+            {
+                "synonyms": [
+                    "bistro"
+                ], 
+                "value": "Bistro"
+            }, 
+            {
+                "synonyms": [
+                    "eurasia"
+                ], 
+                "value": "Eurasia"
+            }, 
+            {
+                "synonyms": [
+                    "pizza", 
+                    "pizza salad bar"
+                ], 
+                "value": "Pizza/Salad Bar"
+            }
+        ]
+    }, 
+    {
+        "id": "e1f75da6-abb6-4cde-b0fc-512dbe2ceddf", 
+        "isEnum": null, 
+        "name": "dininghall", 
+        "entries": [
+            {
+                "synonyms": [
+                    "the village", 
+                    "mccarthy", 
+                    "village"
+                ], 
+                "value": "village"
+            }, 
+            {
+                "synonyms": [
+                    "parkside"
+                ], 
+                "value": "parkside"
+            }, 
+            {
+                "synonyms": [
+                    "evk"
+                ], 
+                "value": "evk"
+            }
+        ]
+    }, 
+    {
+        "id": "991d58ab-d23f-448a-92b1-0878b2b52744", 
+        "isEnum": null, 
+        "name": "meal", 
+        "entries": [
+            {
+                "synonyms": [
+                    "breakfast"
+                ], 
+                "value": "breakfast"
+            }, 
+            {
+                "synonyms": [
+                    "lunch"
+                ], 
+                "value": "lunch"
+            }, 
+            {
+                "synonyms": [
+                    "dinner"
+                ], 
+                "value": "dinner"
+            }
+        ]
+    }
+]

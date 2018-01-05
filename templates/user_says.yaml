@@ -1,0 +1,79 @@
+# Template for defining UserSays examples
+
+# give-color-intent:
+
+#  UserSays:
+#    - My color is blue
+#    - red is my favorite color
+
+#  Annotations:
+#    - blue: sys.color     # maps param value -> entity
+#    - red: sys.color
+
+#  Events:
+#    - event1              # adds a triggerable event named 'event1' to the intent
+
+
+
+user-section:
+  UserSays:
+  - Crepes
+  - Breakfast/Dessert/Fruit
+  - Salad Bar
+  - Flexitarian
+  - Expo
+  - Plant Based
+  - Deli Bar
+  - Plant Based - Mezze Bar
+  - Fresh from the Farm
+  - Hot Line
+  - Americana
+  - Bistro
+  - Eurasia
+  - Pizza/Salad Bar
+  Annotations:
+  -
+  -
+  Events:
+  -
+greeting:
+  UserSays:
+  - Hello
+  - Hi
+  - What's up
+  - start
+  - begin
+  - launch
+  Annotations:
+  -
+  -
+  Events:
+  -
+user-meal:
+  UserSays:
+  - what's for breakfast
+  - what's for lunch
+  - what's for dinner
+  - breakfast
+  - lunch
+  - dinner
+  Annotations:
+  -
+  -
+  Events:
+  -
+user-dininghall:
+  UserSays:
+  - what's at mccarthy
+  - what's at evk
+  - parkside
+  - mccarthy
+  - the village
+  - what's in the village
+  Annotations:
+  - mccarthy: dininghall
+  - evk: dininghall
+  - parkside: dininghall
+  - the village: dininghall
+  Events:
+  -

@@ -1,0 +1,465 @@
+[
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "ask_for_menu", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": [
+                    {
+                        "name": "section", 
+                        "dataType": "@section", 
+                        "defaultValue": "", 
+                        "required": true, 
+                        "value": "$section", 
+                        "prompts": [], 
+                        "isList": false
+                    }
+                ]
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "8a7e0b27-4906-42e0-abb0-acd39ecad8c2", 
+        "priority": 500000, 
+        "userSays": [
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Crepes", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Breakfast/Dessert/Fruit", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Salad Bar", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Flexitarian", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Expo", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Plant Based", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Deli Bar", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Plant Based - Mezze Bar", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Fresh from the Farm", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Hot Line", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Americana", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Bistro", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Eurasia", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Pizza/Salad Bar", 
+                        "userDefined": false
+                    }
+                ]
+            }
+        ], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "user-section"
+    }, 
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "greet_and_start", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": []
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "50532089-a1e7-429c-bcbe-113c49ff4cca", 
+        "priority": 500000, 
+        "userSays": [
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Hello", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "Hi", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "What's up", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "start", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "begin", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "launch", 
+                        "userDefined": false
+                    }
+                ]
+            }
+        ], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "greeting"
+    }, 
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "ask_for_dininghall", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": [
+                    {
+                        "name": "meal", 
+                        "dataType": "@meal", 
+                        "defaultValue": "", 
+                        "required": true, 
+                        "value": "$meal", 
+                        "prompts": [], 
+                        "isList": false
+                    }
+                ]
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "90420cec-a76f-4af3-a241-ef8f3b4104f2", 
+        "priority": 500000, 
+        "userSays": [
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "what's for breakfast", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "what's for lunch", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "what's for dinner", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "breakfast", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "lunch", 
+                        "userDefined": false
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "dinner", 
+                        "userDefined": false
+                    }
+                ]
+            }
+        ], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "user-meal"
+    }, 
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "ask_for_sections", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": [
+                    {
+                        "name": "dininghall", 
+                        "dataType": "@dininghall", 
+                        "defaultValue": "", 
+                        "required": true, 
+                        "value": "$dininghall", 
+                        "prompts": [], 
+                        "isList": false
+                    }
+                ]
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "a4d5ddc9-6d97-4a22-a227-c5003196a70e", 
+        "priority": 500000, 
+        "userSays": [
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "what's at "
+                    }, 
+                    {
+                        "text": "mccarthy", 
+                        "meta": "@dininghall", 
+                        "userDefined": true, 
+                        "alias": "dininghall"
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "what's at "
+                    }, 
+                    {
+                        "text": "evk", 
+                        "meta": "@dininghall", 
+                        "userDefined": true, 
+                        "alias": "dininghall"
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "parkside", 
+                        "meta": "@dininghall", 
+                        "userDefined": true, 
+                        "alias": "dininghall"
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "mccarthy", 
+                        "meta": "@dininghall", 
+                        "userDefined": true, 
+                        "alias": "dininghall"
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "the village", 
+                        "meta": "@dininghall", 
+                        "userDefined": true, 
+                        "alias": "dininghall"
+                    }
+                ]
+            }, 
+            {
+                "count": 0, 
+                "isTemplate": false, 
+                "data": [
+                    {
+                        "text": "what's in "
+                    }, 
+                    {
+                        "text": "the village", 
+                        "meta": "@dininghall", 
+                        "userDefined": true, 
+                        "alias": "dininghall"
+                    }
+                ]
+            }
+        ], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "user-dininghall"
+    }
+]

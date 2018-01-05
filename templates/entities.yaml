@@ -1,0 +1,40 @@
+# Template file for entities
+
+#Format as below
+
+# entity_name:
+#  - entry1: list of synonyms
+#  - entry2: list of synonyms
+
+#For example:
+
+# drink:
+#  - water: ['aqua', 'h20']
+#  - coffee: ['joe', 'caffeine', 'espresso', 'late']
+#  - soda: ['pop', 'coke']
+
+
+
+section:
+- Crepes: ['crepe','crepes']
+- Breakfast/Dessert/Fruit: ['breakfast','desert','fruit']
+- Salad Bar: ['salad bar', 'salad']
+- Flexitarian: ['flexitarian','flex']
+- Expo: ['expo']
+- Plant Based: ['plant based']
+- Deli Bar: ['deli','sandwich']
+- Plant Based - Mezze Bar: ['Mezze bar', 'mezze']
+- Fresh from the Farm: ['fresh from the farm','fresh']
+- Hot Line: ['hot line']
+- Americana: ['americana']
+- Bistro: ['bistro']
+- Eurasia: ['eurasia']
+- Pizza/Salad Bar: ['pizza','pizza salad bar']
+dininghall:
+- village: ['the village', 'mccarthy', 'village']
+- parkside: ['parkside']
+- evk: ['evk']
+meal:
+- breakfast: ['breakfast']
+- lunch: ['lunch']
+- dinner: ['dinner']
